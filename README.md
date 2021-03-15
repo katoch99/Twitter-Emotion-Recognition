@@ -1,5 +1,7 @@
 # Twitter Emotion Recognition using RNN
 
+---
+
 1.  **INTRODUCTION**
 
 Emotions are considered of utmost importance as they have a key responsibility in human interaction. Nowadays, social media plays a pivotal role in the interaction of people all across the world. Such social media posts can be effectively analysed for emotions. Twitter is a microblogging service where worldwide users publish and share their feelings. However, sentiment analysis for Twitter messages (‘tweets’) is regarded as a challenging problem because tweets are short and informal. With the use of Recurrent Neural Networks, a model is created and trained to learn to recognize emotions in tweets. The dataset has thousands of tweets each classified in one of 6 emotions – love, fear, joy, sadness, surprise 
@@ -12,6 +14,7 @@ A basic task in sentiment analysis is classifying the polarity of a given text a
 
 In this project with the use of Recurrent Neural Networks, a model is created and trained to learn to recognize emotions in tweets. The dataset has thousands of tweets each classified in one of 6 emotions – love, fear, joy, sadness, surprise and anger. Using TensorFlow as the machine learning framework, this multi class classification problem of the natural language processing domain is solved.
 
+---
 
 2.  **TOOLS USED**
 
@@ -53,6 +56,7 @@ Project Jupyter is a non-profit organization created to "develop open-source sof
 
 As a server-client application, the Jupyter Notebook App allows to edit and run notebooks via a web browser. The application can be executed on a PC without Internet access, or it can be installed on a remote server, where it can be accessed through the Internet.
 
+---
 
 3.  **DATASET**
 
@@ -62,6 +66,7 @@ The training set consists of 16,000 tweets, the test set consists of 2,000 tweet
 
 This Emotion Dataset was prepared by Elvis Saravia and published on GitHub.
 
+---
 
 4.  **METHODOLOGY**
 
@@ -181,12 +186,8 @@ Plots are generated for the accuracy and loss for the training and validation se
 >Accuracy per epoch plot
 ![image](https://user-images.githubusercontent.com/68529704/111147770-da693b80-85b0-11eb-9fb1-310aa02d2bbc.png)
 
----
-
 >Loss per epoch plot
 ![image](https://user-images.githubusercontent.com/68529704/111147807-e3f2a380-85b0-11eb-8f38-7de6e29dd647.png)
-
----
 
 The training accuracy increased consistently and the validation accuracy plateaued and that’s when the training stopped. The training and validation loss are both decreasing gradually.
 
@@ -196,6 +197,7 @@ The test set is also prepared and the model is evaluated over it. Some predictio
 
 The model achieves 88.80% accuracy on the test set which is very similar to the accuracy achieved on the validation dataset.
 
+---
 
 5.  **OUTCOME**
 
@@ -211,6 +213,7 @@ Some predictions are checked manually from the test set against the actual class
 
 ![image](https://user-images.githubusercontent.com/68529704/111147958-13a1ab80-85b1-11eb-8714-457631c20d1a.png)
 
+---
 
 6.  **IMPORTANCE OF SOCIAL MEDIA SENTIMENT ANALYSIS**
 
@@ -234,6 +237,7 @@ Social media analytics is the most important part of every social media campaign
   
 With the use of sentiment analysis, one is able to spot the problem right at the source. The problem can be eradicated before it escalates and one can solve precisely the issues the customers want to be addressed. Negative sentiment can also give valuable insights into the products features. Taking a more in-depth look into all the negative mentions and finding out what the customers are complaining about the most is a very crucial task. Negative mentions will indicate the most important features that need to be improved and thus contribute in quickly improving and making the customer experience better.
 
+---
 
 7.  **CONCLUSION**
 
