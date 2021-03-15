@@ -2,26 +2,15 @@
 
 1.  **INTRODUCTION**
 
-Emotions are considered of utmost importance as they have a key responsibility in human interaction. Nowadays, social media plays a pivotal role in the interaction of people all 
-across the world. Such social media posts can be effectively analysed for emotions. Twitter is a microblogging service where worldwide users publish and share their feelings. 
-However, sentiment analysis for Twitter messages (‘tweets’) is regarded as a challenging problem because tweets are short and informal. With the use of Recurrent Neural Networks, a 
-model is created and trained to learn to recognize emotions in tweets. The dataset has thousands of tweets each classified in one of 6 emotions – love, fear, joy, sadness, surprise 
+Emotions are considered of utmost importance as they have a key responsibility in human interaction. Nowadays, social media plays a pivotal role in the interaction of people all across the world. Such social media posts can be effectively analysed for emotions. Twitter is a microblogging service where worldwide users publish and share their feelings. However, sentiment analysis for Twitter messages (‘tweets’) is regarded as a challenging problem because tweets are short and informal. With the use of Recurrent Neural Networks, a model is created and trained to learn to recognize emotions in tweets. The dataset has thousands of tweets each classified in one of 6 emotions – love, fear, joy, sadness, surprise 
 and anger. Using TensorFlow as the machine learning framework, this multi class classification problem of the natural language processing domain is solved.
 
-Sentiment analysis (also known as opinion mining or emotion AI) refers to the use of natural language processing, text analysis, computational linguistics, and biometrics to 
-systematically identify, extract, quantify, and study affective states and subjective information. Sentiment analysis is widely applied to voice of the customer materials such as 
-reviews and survey responses, online and social media, and healthcare materials for applications that range from marketing to customer service to clinical medicine.
-Sentiment analysis is the process of retrieving information about a consumer’s perception of a product, service or brand. Social media sentiment analysis applies natural language 
-processing (NLP) to analyse online mentions and determine the feelings behind the post. Social sentiment analysis will tell whether the post was positive, negative, or neutral.
-Analytics provides with essential knowledge about the social media performance.
+Sentiment analysis (also known as opinion mining or emotion AI) refers to the use of natural language processing, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify, and study affective states and subjective information. Sentiment analysis is widely applied to voice of the customer materials such as reviews and survey responses, online and social media, and healthcare materials for applications that range from marketing to customer service to clinical medicine.
+Sentiment analysis is the process of retrieving information about a consumer’s perception of a product, service or brand. Social media sentiment analysis applies natural language processing (NLP) to analyse online mentions and determine the feelings behind the post. Social sentiment analysis will tell whether the post was positive, negative, or neutral.Analytics provides with essential knowledge about the social media performance.
 
-A basic task in sentiment analysis is classifying the polarity of a given text at the document, sentence, or feature/aspect level—whether the expressed opinion in a document, a 
-sentence or an entity feature/aspect is positive, negative, or neutral. Advanced, "beyond polarity" sentiment classification looks, for instance, at emotional states such as 
-enjoyment, anger, disgust, sadness, fear, and surprise.
+A basic task in sentiment analysis is classifying the polarity of a given text at the document, sentence, or feature/aspect level—whether the expressed opinion in a document, a sentence or an entity feature/aspect is positive, negative, or neutral. Advanced, "beyond polarity" sentiment classification looks, for instance, at emotional states such as enjoyment, anger, disgust, sadness, fear, and surprise.
 
-In this project with the use of Recurrent Neural Networks, a model is created and trained to learn to recognize emotions in tweets. The dataset has thousands of tweets each 
-classified in one of 6 emotions – love, fear, joy, sadness, surprise and anger. Using TensorFlow as the machine learning framework, this multi class classification problem of the 
-natural language processing domain is solved.
+In this project with the use of Recurrent Neural Networks, a model is created and trained to learn to recognize emotions in tweets. The dataset has thousands of tweets each classified in one of 6 emotions – love, fear, joy, sadness, surprise and anger. Using TensorFlow as the machine learning framework, this multi class classification problem of the natural language processing domain is solved.
 
 
 2.  **TOOLS USED**
@@ -46,27 +35,31 @@ NumPy targets the CPython reference implementation of Python, which is a non-opt
 
   **Matplotlib**
 
-Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+. There is also a procedural "pylab" interface based on a state machine (like OpenGL), designed to closely resemble that of MATLAB, though its use is discouraged. SciPy makes use of Matplotlib.
-Several toolkits are available which extend Matplotlib functionality. Some are separate downloads, others ship with the Matplotlib source code but have external dependencies.
+Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+. There is also a procedural "pylab" interface based on a state machine (like OpenGL), designed to closely resemble that of MATLAB, though its use is discouraged. SciPy makes use of Matplotlib. Several toolkits are available which extend Matplotlib functionality. Some are separate downloads, others ship with the Matplotlib source code but have external dependencies.
+
 Pyplot is a Matplotlib module which provides a MATLAB-like interface. Matplotlib is designed to be as usable as MATLAB, with the ability to use Python and the advantage of being free and open-source. Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc. The various plots we can utilize using Pyplot are Line Plot, Histogram, Scatter, 3D Plot, Image, Contour, and Polar.
 
 
   **NLP**
 
 Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data. The result is a computer capable of "understanding" the contents of documents, including the contextual nuances of the language within them. The technology can then accurately extract information and insights contained in the documents as well as categorize and organize the documents themselves.
+
 HuggingFace/NLP is an open library of NLP datasets. the HuggingFace nlp library. HuggingFace nlp provides datasets for many NLP tasks like text classification, question answering, language modeling, etc and obviously these datasets can always be used to other tasks than their originally assigned task.
 
 
  **Jupyter**
 
 Project Jupyter is a non-profit organization created to "develop open-source software, open-standards, and services for interactive computing across dozens of programming languages". Spun-off from IPython in 2014 by Fernando Pérez, Project Jupyter supports execution environments in several dozen languages. Project Jupyter's name is a reference to the three core programming languages supported by Jupyter, which are Julia, Python and R, and also a homage to Galileo's notebooks recording the discovery of the moons of Jupiter. Project Jupyter has developed and supported the interactive computing products Jupyter Notebook, JupyterHub, and JupyterLab, the next-generation version of Jupyter Notebook.
+
 As a server-client application, the Jupyter Notebook App allows to edit and run notebooks via a web browser. The application can be executed on a PC without Internet access, or it can be installed on a remote server, where it can be accessed through the Internet.
 
 
 3.  **DATASET**
 
 The dataset consists of 20,000 tweets with their corresponding emotion. The dataset is already pre-processed and divided into the training, test and validation set. Each tweet is based on an emotion in one of the six categories – love, fear, joy, sadness, surprise and anger.
+
 The training set consists of 16,000 tweets, the test set consists of 2,000 tweets and the validation set also consists of 2,000 tweets. The dataset is stored in a pickle file which takes 47.6 MB of space on disk.
+
 This Emotion Dataset was prepared by Elvis Saravia and published on GitHub.
 
 
@@ -78,18 +71,25 @@ sequential model is created using four different layers. The model is then train
 1.  **Installing Hugging Face’s nlp package**
 
 The Hugging Face’s nlp package is installed using the following command: -
+
 !pip install nlp 
 
 2.  **Importing the libraries**
 
 The following libraries are imported: -
+
 import tensorflow as tf
+
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 import nlp
+
 import random
 
 import warnings (To hide some unnecessary warnings shown by Jupyter)
+
 Further some modules from the Tensorflow library are also imported.
 
 
@@ -103,6 +103,7 @@ The Emotion Dataset is imported using the nlp package. The dataset is already di
 4.  **Tokenizing the Tweets**
 
 The TensorFlow comes with a built-in Tokenizer library which is imported from its text pre-processing module. Tokenization randomly generates a token value for plain text and stores the mapping in a database. The words of tweets need to be tokenized so that each word can be represented as a number to feed into the model and the model is able to train on the data. The tokenizer basically creates a corpus (collection) of all the words that exist in the dataset and give each unique word a unique corresponding token. A limit is also set to how many most frequently words are to be organized and the rest less commonly used words are given a common token called out of vocabulary which is basically an unknown word token.
+
 An object tokenizer is created which tokenizes the most frequently used 10,000 words from the text corpus and assigns an unknown token (<UNK>) to the remaining words. Then the words  from the tweets from the training set are mapped to the numeric tokens using fit_on_texts function. Using the texts_to_sequences function we can see that the tweets have been tokenized.
 
 ![image](https://user-images.githubusercontent.com/68529704/111146918-fae4c600-85af-11eb-9fe9-0f06765d53a1.png)
@@ -115,6 +116,7 @@ The sequences generated from the Tokenizer need to be padded and truncated becau
 ![image](https://user-images.githubusercontent.com/68529704/111144796-8dd03100-85ad-11eb-93f5-c275b9c667e9.png)
 
 Most of the tweets in the dataset are about 10 to 20 words long. There are very few tweets which are less than 4 words and also very few tweets of length 50 words or more.
+
 A maximum length of 50 is set to truncate any tweets over the length of 50 words. Any tweet which has less than 50 words is padded with ‘0’ in its token sequence. This is done using the pad_sequences function from the TensorFlow library. Both truncating and padding is done ‘post’ which means that the function will remove or add words from the end of the token sequence to get the sequence length to 50. This will get all the tweets to a fixed input size.
 
 ![image](https://user-images.githubusercontent.com/68529704/111144827-99bbf300-85ad-11eb-879b-c6fce0be99d5.png)
@@ -134,12 +136,16 @@ Two dictionaries are created to convert the names of the classes to their corres
 7.  **Creating the Model**
 
 A sequential model is created using keras. Recurrent Neural Network (RNN) is a deep learning algorithm that is specialized for sequential data. In a RNN the neural network gains information from the previous step in a loop. The output of one unit goes into the next one and the information is passed. 
+
 But RNNs are not good for training large datasets. During the training of RNN, the information goes in loop again and again which results in very large updates to neural network model weights which lead to the accumulation of error gradients during the update and the network becomes unstable. At an extreme, the values of weights can become so large as to overflow and result in NaN values. The explosion occurs through exponential growth by repeatedly multiplying gradients through the network layers that have values larger than 1 or vanishing occurs if the values are less than 1.
+
 To overcome this problem Long Short-Term Memory is used. LSTM can capture long-range dependencies. It can have memory about previous inputs for extended time durations. There are 3 
 gates in an LSTM cell – Forget, Input and Output Gate.
 
 •	Forget Gate: Forget gate removes the information that is no longer useful in the cell state.
+
 •	Input Gate: Additional useful information to the cell state is added by input gate.
+
 •	Output Gate: Additional useful information to the cell state is added by output gate.
 
 Memory manipulations in LSTM are done using these gates. Long short-term memory (LSTM) utilizes gates to control the gradient propagation in the recurrent network’s memory. This gating mechanism of LSTM has allowed the network to learn the conditions for when to forget, ignore, or keep information in the memory cell. 
