@@ -153,7 +153,9 @@ gates in an LSTM cell – Forget, Input and Output Gate.
 
 •	Output Gate: Additional useful information to the cell state is added by output gate.
 
-Memory manipulations in LSTM are done using these gates. Long short-term memory (LSTM) utilizes gates to control the gradient propagation in the recurrent network’s memory. This gating mechanism of LSTM has allowed the network to learn the conditions for when to forget, ignore, or keep information in the memory cell. 
+Memory manipulations in LSTM are done using these gates. Long short-term memory (LSTM) utilizes gates to control the gradient propagation in the recurrent network’s memory. This gating mechanism of LSTM has allowed the network to learn the conditions for when to forget, ignore, or keep information in the memory cell.
+
+![image](https://user-images.githubusercontent.com/68529704/111144967-c53edd80-85ad-11eb-9962-d30bfdb1c423.png)
 
 The fist layer of the model is Embedding layer. Its input dimension is 10,000 (most commonly used words in the dataset) and output dimension is 16 which will be the size of the output vectors from this layer for each word. The input length of sequence is going to be the maximum length which is 50.
 
@@ -162,8 +164,6 @@ LSTM preserves information from inputs that has already passed through it using 
 The second is a bidirectional LSTM layer. This means that the contents from the LSTM layer can go for both left to right and right to left. Its 20 cells (each cell has its own inputs, outputs and memory) are used and return sequence is set to true which means that every time there will be an output which will be fed into another bidirectional LSTM layer it is sent as a sequence rather than a single value of each input so that the subsequent LSTM layer can have the required input.
 
 The final layer will be a Dense layer with 6 units for the six classes present and the activation is set to softmax which returns a probability distribution over the target classes.
-
-![image](https://user-images.githubusercontent.com/68529704/111144967-c53edd80-85ad-11eb-9962-d30bfdb1c423.png)
 
 The model is compiled with loss set to ‘sparse_categorical_crossentropy’ as it is used for multi class classification problems as the classes are not one-hot encoded (for binary classes). The optimizer used is ‘adam’ as it is really efficient for working with large datasets. The training metrics used is accuracy which calculates how often the predictions are equal to the actual labels. The model summary is generated.
 
