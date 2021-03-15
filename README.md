@@ -18,6 +18,7 @@ Analytics provides with essential knowledge about the social media performance.
 A basic task in sentiment analysis is classifying the polarity of a given text at the document, sentence, or feature/aspect level—whether the expressed opinion in a document, a 
 sentence or an entity feature/aspect is positive, negative, or neutral. Advanced, "beyond polarity" sentiment classification looks, for instance, at emotional states such as 
 enjoyment, anger, disgust, sadness, fear, and surprise.
+
 In this project with the use of Recurrent Neural Networks, a model is created and trained to learn to recognize emotions in tweets. The dataset has thousands of tweets each 
 classified in one of 6 emotions – love, fear, joy, sadness, surprise and anger. Using TensorFlow as the machine learning framework, this multi class classification problem of the 
 natural language processing domain is solved.
@@ -27,76 +28,51 @@ natural language processing domain is solved.
 
   **TensorFlow**
 
-TensorFlow is a free and open-source software library for dataflow and differentiable programming across a range of tasks. It is a symbolic math library, and is also used for machine 
-learning applications such as neural networks. It is used for both research and production at Google.
+TensorFlow is a free and open-source software library for dataflow and differentiable programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks. It is used for both research and production at Google.
 
   **Keras**
 
-Keras is an open-source neural-network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, R, Theano, or PlaidML. Designed to 
-enable fast experimentation with deep neural networks, it focuses on being user-friendly, modular, and extensible. It was developed as part of the research effort of project ONEIROS 
-(Open-ended Neuro-Electronic Intelligent Robot Operating System), and its primary author and maintainer is François Chollet, a Google engineer. Chollet also is the author of the 
-XCeption deep neural network model. 
+Keras is an open-source neural-network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, R, Theano, or PlaidML. Designed to enable fast experimentation with deep neural networks, it focuses on being user-friendly, modular, and extensible. It was developed as part of the research effort of project ONEIROS (Open-ended Neuro-Electronic Intelligent Robot Operating System), and its primary author and maintainer is François Chollet, a Google engineer. Chollet also is the author of the XCeption deep neural network model. 
 
-Keras is based on minimal structure that provides a clean and easy way to create deep learning models based on TensorFlow or Theano. Keras is designed to quickly define deep learning 
-models. Well, Keras is an optimal choice for deep learning applications.
+Keras is based on minimal structure that provides a clean and easy way to create deep learning models based on TensorFlow or Theano. Keras is designed to quickly define deep learning models. Well, Keras is an optimal choice for deep learning applications.
 
 
   **NumPy**
 
-NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical 
-functions to operate on these arrays. The ancestor of NumPy, Numeric, was originally created by Jim Hugunin with contributions from several other developers. In 2005, Travis Oliphant 
-created NumPy by incorporating features of the competing Numarray into Numeric, with extensive modifications. NumPy is open-source software and has many contributors.
-NumPy targets the CPython reference implementation of Python, which is a non-optimizing bytecode interpreter. Mathematical algorithms written for this version of Python often run 
-much slower than compiled equivalents. NumPy addresses the slowness problem partly by providing multidimensional arrays and functions and operators that operate efficiently on 
-arrays, requiring rewriting some code, mostly inner loops, using NumPy.
+NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. The ancestor of NumPy, Numeric, was originally created by Jim Hugunin with contributions from several other developers. In 2005, Travis Oliphant created NumPy by incorporating features of the competing Numarray into Numeric, with extensive modifications. NumPy is open-source software and has many contributors.
+
+NumPy targets the CPython reference implementation of Python, which is a non-optimizing bytecode interpreter. Mathematical algorithms written for this version of Python often run much slower than compiled equivalents. NumPy addresses the slowness problem partly by providing multidimensional arrays and functions and operators that operate efficiently on arrays, requiring rewriting some code, mostly inner loops, using NumPy.
 
 
   **Matplotlib**
 
-Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into 
-applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+. There is also a procedural "pylab" interface based on a state machine (like OpenGL), designed to 
-closely resemble that of MATLAB, though its use is discouraged. SciPy makes use of Matplotlib. 
+Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+. There is also a procedural "pylab" interface based on a state machine (like OpenGL), designed to closely resemble that of MATLAB, though its use is discouraged. SciPy makes use of Matplotlib.
 Several toolkits are available which extend Matplotlib functionality. Some are separate downloads, others ship with the Matplotlib source code but have external dependencies.
-Pyplot is a Matplotlib module which provides a MATLAB-like interface. Matplotlib is designed to be as usable as MATLAB, with the ability to use Python and the advantage of being free 
-and open-source. Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the 
-plot with labels, etc. The various plots we can utilize using Pyplot are Line Plot, Histogram, Scatter, 3D Plot, Image, Contour, and Polar.
+Pyplot is a Matplotlib module which provides a MATLAB-like interface. Matplotlib is designed to be as usable as MATLAB, with the ability to use Python and the advantage of being free and open-source. Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc. The various plots we can utilize using Pyplot are Line Plot, Histogram, Scatter, 3D Plot, Image, Contour, and Polar.
 
 
   **NLP**
 
-Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in 
-particular how to program computers to process and analyze large amounts of natural language data. The result is a computer capable of "understanding" the contents of documents, 
-including the contextual nuances of the language within them. The technology can then accurately extract information and insights contained in the documents as well as categorize and 
-organize the documents themselves.
-HuggingFace/NLP is an open library of NLP datasets. the HuggingFace nlp library. HuggingFace nlp provides datasets for many NLP tasks like text classification, question answering, 
-language modeling, etc and obviously these datasets can always be used to other tasks than their originally assigned task.
+Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data. The result is a computer capable of "understanding" the contents of documents, including the contextual nuances of the language within them. The technology can then accurately extract information and insights contained in the documents as well as categorize and organize the documents themselves.
+HuggingFace/NLP is an open library of NLP datasets. the HuggingFace nlp library. HuggingFace nlp provides datasets for many NLP tasks like text classification, question answering, language modeling, etc and obviously these datasets can always be used to other tasks than their originally assigned task.
 
 
  **Jupyter**
 
-Project Jupyter is a non-profit organization created to "develop open-source software, open-standards, and services for interactive computing across dozens of programming languages". 
-Spun-off from IPython in 2014 by Fernando Pérez, Project Jupyter supports execution environments in several dozen languages. Project Jupyter's name is a reference to the three core 
-programming languages supported by Jupyter, which are Julia, Python and R, and also a homage to Galileo's notebooks recording the discovery of the moons of Jupiter. Project Jupyter 
-has developed and supported the interactive computing products Jupyter Notebook, JupyterHub, and JupyterLab, the next-generation version of Jupyter Notebook.
-As a server-client application, the Jupyter Notebook App allows to edit and run notebooks via a web browser. The application can be executed on a PC without Internet access, or it 
-can be installed on a remote server, where it can be accessed through the Internet.
+Project Jupyter is a non-profit organization created to "develop open-source software, open-standards, and services for interactive computing across dozens of programming languages". Spun-off from IPython in 2014 by Fernando Pérez, Project Jupyter supports execution environments in several dozen languages. Project Jupyter's name is a reference to the three core programming languages supported by Jupyter, which are Julia, Python and R, and also a homage to Galileo's notebooks recording the discovery of the moons of Jupiter. Project Jupyter has developed and supported the interactive computing products Jupyter Notebook, JupyterHub, and JupyterLab, the next-generation version of Jupyter Notebook.
+As a server-client application, the Jupyter Notebook App allows to edit and run notebooks via a web browser. The application can be executed on a PC without Internet access, or it can be installed on a remote server, where it can be accessed through the Internet.
 
 
 3.  **DATASET**
 
-The dataset consists of 20,000 tweets with their corresponding emotion. The dataset is already pre-processed and divided into the training, test and validation set. Each tweet is 
-based on an emotion in one of the six categories – love, fear, joy, sadness, surprise and anger.
-The training set consists of 16,000 tweets, the test set consists of 2,000 tweets and the validation set also consists of 2,000 tweets. The dataset is stored in a pickle file which 
-takes 47.6 MB of space on disk.
+The dataset consists of 20,000 tweets with their corresponding emotion. The dataset is already pre-processed and divided into the training, test and validation set. Each tweet is based on an emotion in one of the six categories – love, fear, joy, sadness, surprise and anger.
+The training set consists of 16,000 tweets, the test set consists of 2,000 tweets and the validation set also consists of 2,000 tweets. The dataset is stored in a pickle file which takes 47.6 MB of space on disk.
 This Emotion Dataset was prepared by Elvis Saravia and published on GitHub.
 
 
 4.  **METHODOLOGY**
 
-The RNN model is built using Google Collab environment which runs the Jupyter notebook in the cloud. It uses the TensorFlow as the machine learning framework. First all the necessary 
-libraries are imported. Then the dataset is imported and assigned to the corresponding data object. The text pre-processing functions are done using the built-in tokenizer of 
-TensorFlow and all the words in the dataset are assigned to a specific token. Next, the tokens are padded and truncated so that the model gets input of fixed shape. Then we create a 
-dictionary for converting the name off the classes to their corresponding index. The text labels for the different classes are passes to get them as numeric representations. The 
+The RNN model is built using Google Collab environment which runs the Jupyter notebook in the cloud. It uses the TensorFlow as the machine learning framework. First all the necessary libraries are imported. Then the dataset is imported and assigned to the corresponding data object. The text pre-processing functions are done using the built-in tokenizer of TensorFlow and all the words in the dataset are assigned to a specific token. Next, the tokens are padded and truncated so that the model gets input of fixed shape. Then we create a dictionary for converting the name off the classes to their corresponding index. The text labels for the different classes are passes to get them as numeric representations. The 
 sequential model is created using four different layers. The model is then trained and evaluated.
 
 1.  **Installing Hugging Face’s nlp package**
@@ -119,10 +95,7 @@ Further some modules from the Tensorflow library are also imported.
 
 3.  **Importing the Dataset**
 
-The Emotion Dataset is imported using the nlp package. The dataset is already divided into test, training and validation sets. Each set has text and label features. There are 16,000 
-tweets in the training set, 2,000 tweets in the test set and 2,000 tweets in the validation set. Each tweet also has its corresponding emotion with it. These three sets are assigned 
-to their respective objects. A function is also defined to get the text and label keys from the dataset. The first tweet and its corresponding label of the training set on which the 
-model is going to be trained is displayed.
+The Emotion Dataset is imported using the nlp package. The dataset is already divided into test, training and validation sets. Each set has text and label features. There are 16,000 tweets in the training set, 2,000 tweets in the test set and 2,000 tweets in the validation set. Each tweet also has its corresponding emotion with it. These three sets are assigned to their respective objects. A function is also defined to get the text and label keys from the dataset. The first tweet and its corresponding label of the training set on which the model is going to be trained is displayed.
 
 ![image](https://user-images.githubusercontent.com/68529704/111146771-cffa7200-85af-11eb-9ce6-89be4bf2d79e.png)
 
