@@ -114,7 +114,7 @@ An object tokenizer is created which tokenizes the most frequently used 10,000 w
 ![image](https://user-images.githubusercontent.com/68529704/111146918-fae4c600-85af-11eb-9fe9-0f06765d53a1.png)
 
 
-5.  **Padding and Truncating Sequencesl**
+5.  **Padding and Truncating Sequences**
 
 The sequences generated from the Tokenizer need to be padded and truncated because the model requires a fixed input size. The tweets in the dataset are of different length of words and thus it is required for them to be padded or truncated. The length of the tweets is calculated by counting the number of words separated by a space. A histogram is plotted to get the most common lengths of tweets in the dataset.
 
