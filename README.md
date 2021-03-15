@@ -1,0 +1,2 @@
+# Twitter-Emotion-Recognition
+With the use of Recurrent Neural Networks, a model is created and trained to learn to recognize emotions in tweets. The dataset has thousands of tweets each classified in one of 6 emotions – love, fear, joy, sadness, surprise and anger. Using TensorFlow as the machine learning framework, this multi class classification problem of the natural language processing domain is solved.
